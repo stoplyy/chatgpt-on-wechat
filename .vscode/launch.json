@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: 当前文件",
+            "name": "app启动",
             "type": "python",
             "request": "launch",
             "program": "app.py",

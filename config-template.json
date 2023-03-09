@@ -1,12 +1,26 @@
 {
   "open_ai_api_key": "YOUR API KEY",
-  "channel_type":"api",
-  "bot_name": "ChatGPT",
-  "single_chat_prefix": ["bot", "@bot"],
+  "gpt_model_name": "chatGPT模型名称,支持的模型查询地址：https://platform.openai.com/docs/models/chatgpt；或参考项目的 model-20230301.json 文件",
+  "channel_type": "后端运行模式：api 或者 wx",
+  "bot_name": "bot类型：ChatGPT、baidu、openAI",
+  "api_url": "https://api.openai.customdomain.com/v1/chat/completions",
+  "single_chat_prefix": [
+    "bot",
+    "@bot"
+  ],
   "single_chat_reply_prefix": "[bot] ",
-  "group_chat_prefix": ["@bot"],
-  "group_name_white_list": ["ChatGPT测试群", "ChatGPT测试群2"],
-  "image_create_prefix": ["画", "看", "找"],
+  "group_chat_prefix": [
+    "@bot"
+  ],
+  "group_name_white_list": [
+    "ChatGPT测试群",
+    "ChatGPT测试群2"
+  ],
+  "image_create_prefix": [
+    "画",
+    "看",
+    "找"
+  ],
   "conversation_max_tokens": 1000,
   "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。"
 }

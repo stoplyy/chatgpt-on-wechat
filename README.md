@@ -65,10 +65,9 @@ cd chatgpt-on-wechat/
 2.安装所需核心依赖：
 
 ```bash
-pip3 install itchat-uos==1.5.0.dev0
-pip3 install --upgrade openai
+pip3 install -r requirement.txt
 ```
-注：`itchat-uos`使用指定版本1.5.0.dev0，`openai`使用最新版本，需高于0.25.0。
+注：`itchat-uos`使用指定版本1.5.0.dev0，`openai`使用最新版本，需高于0.27.1。
 
 
 ## 配置

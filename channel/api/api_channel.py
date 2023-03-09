@@ -7,7 +7,6 @@ import json
 from flask import Flask, make_response, request
 from channel.channel import Channel
 from common.log import logger
-from config import conf
 import requests
 import io
 
@@ -92,7 +91,6 @@ class ApiChannel(Channel):
             return image_storage
         except Exception as e:
             logger.exception(e)
-
 
     def check_prefix(self, content, prefix_list):
         for prefix in prefix_list:
